@@ -1,0 +1,4 @@
+版本号后面加   -alpha
+
+例如：
+<VersionPrefix>1.0.1-alpha</VersionPrefix>

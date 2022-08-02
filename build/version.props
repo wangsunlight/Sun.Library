@@ -1,0 +1,10 @@
+<Project>
+	<PropertyGroup>
+		<VersionMajor>2</VersionMajor>
+		<VersionMinor>3</VersionMinor>
+		<VersionPatch>4-alpha</VersionPatch>
+		<VersionQuality></VersionQuality>
+		<VersionPrefix>$(VersionMajor).$(VersionMinor).$(VersionPatch)</VersionPrefix>
+		<VersionSuffix></VersionSuffix>
+	</PropertyGroup>
+</Project>
