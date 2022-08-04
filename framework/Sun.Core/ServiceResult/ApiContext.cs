@@ -20,7 +20,8 @@ namespace Sun.Core.ServiceResult
         {
             get
             {
-                WebHelper.HttpContextAccessor?.HttpContext?.Request?.Headers.TryGetValue("requestId", out StringValues requestId);
+                StringValues requestId = "";
+                WebHelper.HttpContextAccessor?.HttpContext?.Request?.Headers.TryGetValue("requestId", out requestId);
                 return !string.IsNullOrWhiteSpace(requestId) ? (string)requestId : default;
             }
         }
